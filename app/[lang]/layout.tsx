@@ -26,7 +26,7 @@ export default async function RootLayout({
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: Promise<{ lang: 'en' | 'es' }>;
+  params: Promise<{ lang: string }>;
 }>) {
   const { lang } = await params
   
