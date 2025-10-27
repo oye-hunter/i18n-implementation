@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "team": "Equipo",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "FC Barcelona",
+    "motto": "Més que un club",
+    "subtitle": "Experimenta la pasión, historia y excelencia de uno de los mejores clubes de fútbol del mundo.",
+    "button": "Explorar Más"
+  },
+  "about": {
+    "title": "Acerca del FC Barcelona",
+    "history": {
+      "title": "Nuestra Historia",
+      "paragraph1": "Fundado en 1899 por un grupo de futbolistas suizos, catalanes, alemanes e ingleses liderados por Joan Gamper, el FC Barcelona se ha convertido en un símbolo de la cultura catalana y el catalanismo.",
+      "paragraph2": "El club ha ganado numerosos títulos nacionales e internacionales, incluyendo múltiples trofeos de la UEFA Champions League y campeonatos de La Liga."
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "excellence": {
+        "title": "Excelencia",
+        "description": "Compromiso con los más altos estándares del fútbol"
+      },
+      "respect": {
+        "title": "Respeto",
+        "description": "Honrando a nuestros oponentes, aficionados y el hermoso juego"
+      },
+      "passion": {
+        "title": "Pasión",
+        "description": "Más que un club, una forma de vida para millones en todo el mundo"
+      }
+    }
+  }
+}
