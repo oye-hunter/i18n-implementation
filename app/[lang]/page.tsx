@@ -1,5 +1,6 @@
 import { getDictionary } from './dictionaries'
-import LanguageSwitcher from './components/LanguageSwitcher'
+import LanguageSwitcher from './components/LanguageSwitcher';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export default async function Page({
   params,
@@ -9,7 +10,8 @@ export default async function Page({
   const { lang } = await params
   const dict = await getDictionary(lang)
 
-  return (
+  return (<>
+      <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID!} />
     <div className="min-h-screen">
       {/* Navbar */}
       <nav className="bg-[#004D98] text-white px-6 py-4">
@@ -76,5 +78,6 @@ export default async function Page({
         </div>
       </section>
     </div>
+    </>
   )
 }
