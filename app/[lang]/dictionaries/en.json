@@ -33,5 +33,41 @@
         "description": "More than a club, a way of life for millions worldwide"
       }
     }
+  },
+  "team": {
+    "title": "The First Team",
+    "subtitle": "Meet the stars representing the Blaugrana colors",
+    "players": {
+      "lewandowski": "Robert Lewandowski",
+      "lewandowski_pos": "Forward",
+      "pedri": "Pedri",
+      "pedri_pos": "Midfielder",
+      "gavi": "Gavi",
+      "gavi_pos": "Midfielder",
+      "lamine": "Lamine Yamal",
+      "lamine_pos": "Forward"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with the club",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message"
+    },
+    "info": {
+      "address": "Spotify Camp Nou, Barcelona",
+      "email": "info@fcbarcelona.com",
+      "phone": "+34 902 1899 00"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
   }
 }

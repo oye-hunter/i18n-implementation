@@ -16,10 +16,10 @@ export default function LanguageSwitcher({ currentLang }: { currentLang: 'en' | 
   return (
     <Link 
       href={newPath}
-      className="flex items-center gap-2 bg-[#FFED02] text-[#004D98] px-4 py-2 rounded-full font-semibold hover:bg-yellow-300 transition"
+      className="flex items-center gap-2 bg-[#FFED02] text-[#004D98] px-5 py-2.5 rounded-xl font-bold hover:bg-[#fff24d] hover:-translate-y-0.5 transition-all shadow-md active:scale-95"
     >
-      <span className="text-lg">🌐</span>
-      <span>{currentLang === 'en' ? 'ES' : 'EN'}</span>
+      <span className="text-xl">🌐</span>
+      <span className="tracking-tight">{currentLang === 'en' ? 'ESP' : 'ENG'}</span>
     </Link>
   )
 }
