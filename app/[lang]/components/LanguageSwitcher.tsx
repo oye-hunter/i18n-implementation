@@ -16,10 +16,12 @@ export default function LanguageSwitcher({ currentLang }: { currentLang: 'en' | 
   return (
     <Link 
       href={newPath}
-      className="flex items-center gap-2 bg-[#FFED02] text-[#004D98] px-4 py-2 rounded-full font-semibold hover:bg-yellow-300 transition"
+      className="group relative flex items-center gap-2 bg-white/10 backdrop-blur-sm text-white px-4 py-2 rounded-full font-medium border border-white/20 hover:bg-[#FFED02] hover:text-[#004D98] hover:border-[#FFED02] transition-all duration-300"
     >
-      <span className="text-lg">🌐</span>
-      <span>{currentLang === 'en' ? 'ES' : 'EN'}</span>
+      <span className="text-lg group-hover:rotate-180 transition-transform duration-500">🌐</span>
+      <span className="text-sm font-semibold">{currentLang.toUpperCase()}</span>
+      <span className="text-white/50 group-hover:text-[#004D98]/50">|</span>
+      <span className="text-sm opacity-60 group-hover:opacity-100">{newLang.toUpperCase()}</span>
     </Link>
   )
 }
